@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/recipestep_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+
+        tools:context=".RecipestepDetailFragment" >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textViewDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+             />
+
+
+        <FrameLayout
+            android:id="@+id/frameLayoutDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                app:use_controller="false"
+                android:layout_width="match_parent"
+                android:id="@+id/exoplayerView"
+                android:layout_height="200dp" />
+            <TextView
+                android:id="@+id/textViewExoplayerDetail"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:textSize="50sp"
+                android:text="@string/no_video_available"
+                tools:visibility="visible"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center"
+            android:id="@+id/recipeDetailImageView"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

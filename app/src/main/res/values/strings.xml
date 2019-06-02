@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BakingAppProject</string>
+    <string name="title_recipestep_list">Recipe steps</string>
+    <string name="title_recipestep_detail">Recipe step Detail</string>
+    <string name="alertdialog_ingredients_text">Please make sure that you have the following ingredients ready</string>
+    <string name="ok">Ok</string>
+    <string name="no_video_available">No video available</string>
+    <string name="show_in_widget">Show in Widget</string>
+    <string name="default_list_text">No Recipe Choosen</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="bakingapp_widget">Bakingapp widget</string>
+</resources>
